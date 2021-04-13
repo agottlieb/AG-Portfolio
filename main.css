@@ -26,6 +26,13 @@ body {
     text-decoration: none;
   }
 
+  h3,
+  h4 {
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
   /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -147,33 +154,4 @@ footer .copyright {
   font-size: 1.75em;
 }
 
-/* Work */
-
-.work {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-}
-
-.work article {
-  width: 63%;
-  margin: 30px 0;
-  font-size: 1.75em;
-  padding: 0 25px;
-}
-.work .skills-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  text-align: center;
-}
-
-.work i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-}
-
-.work p {
-  margin: 0;
-}
+/* Projects */
