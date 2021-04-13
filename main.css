@@ -4,8 +4,13 @@ html {
     font-size: 16px;
   }
 
+* {
+  font-family: 'Orelega One', sans-serif;
+  font-weight: 200;
+}
+
 body {
-         font-family: 'Source Sans Pro', sans-serif;
+         
          font-size: 1em;
          text-align: left;
          color: #2e2e1f;
@@ -20,3 +25,155 @@ body {
     color: #C0C0C0;
     text-decoration: none;
   }
+
+  /* -------------------- Base Header - Footer Styles -------------------- */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #63abbb;
+  color: #0f0e0e;
+
+}
+
+header {
+  padding: 15px 0;
+  height: 200px;
+  margin: 0;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 3rem;
+  min-height: 2rem;
+}
+
+/* .header-divider {
+  background: #3a3a3a;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+} */
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 75%;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header nav ul li {
+  font-size: 2em;
+}
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+
+/* Statement Area */
+
+.statement-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color:#708090;
+}
+.about .about-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.about h2 {
+  margin-bottom: 60px;
+}
+
+.about p {
+  width: 63%;
+  margin: 30px 0;
+  font-size: 1.75em;
+}
+
+/* Work */
+
+.work {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.work article {
+  width: 63%;
+  margin: 30px 0;
+  font-size: 1.75em;
+  padding: 0 25px;
+}
+.work .skills-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.work i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+.work p {
+  margin: 0;
+}
