@@ -10,7 +10,7 @@ html {
 }
 
 body {
-         
+
          font-size: 1em;
          text-align: left;
          color: #2e2e1f;
@@ -92,13 +92,15 @@ footer p {
   font-size: 1.5em;
 }
 
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
 
-footer .contact {
-  margin-bottom: 50px;
+.c-title {
+  margin:auto;
+  text-align: center;
+  padding-bottom: 2rem;
+} 
+
+footer  {
+  margin: auto;
 }
 
 footer .social-icons {
@@ -151,7 +153,7 @@ footer .copyright {
   width: 63%;
   margin-bottom: 2rem;
   font-size: 1.75em;
-  
+
 }
 
 /* Projects */
