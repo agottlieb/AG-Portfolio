@@ -96,7 +96,7 @@ footer p {
 .c-title {
   margin:auto;
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 } 
 
 footer  {
@@ -113,6 +113,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 
 footer .copyright {
@@ -157,3 +158,16 @@ footer .copyright {
 }
 
 /* Projects */
+
+
+.project-title {
+  margin: auto; 
+  display: flex;
+  justify-content: center; 
+}
+
+
+.indv-projects-group p{
+  display: flex;
+  justify-content: center;
+}
