@@ -159,15 +159,25 @@ footer .copyright {
 
 /* Projects */
 
-
 .project-title {
   margin: auto; 
   display: flex;
   justify-content: center; 
 }
 
+.project-title {
+  padding-top: 2rem;
+}
 
-.indv-projects-group p{
+.projects-group p{
   display: flex;
   justify-content: center;
+}
+.projects-group {
+  display: flex;
+  justify-content: center;
+}
+.picture {
+  border-radius: 30%;
+  width: 200px;
 }
