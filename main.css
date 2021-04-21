@@ -176,8 +176,19 @@ footer .copyright {
 .projects-group {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .picture {
-  border-radius: 30%;
-  width: 200px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  background-size: contain; 
+  padding-bottom: 1rem;
+  margin: auto;
+}
+
+.project-unit {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
