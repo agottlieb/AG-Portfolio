@@ -163,16 +163,24 @@ footer .copyright {
   margin: auto; 
   display: flex;
   justify-content: center; 
+  padding: 2rem 0;
 }
 
-.project-title {
-  padding-top: 2rem;
+.project-group a{
+  text-decoration: none;
+}
+a {
+  color: black;
 }
 
-.projects-group p{
+a:visited {
+  text-decoration: none;
+}
+
+/* .projects-group p{
   display: flex;
   justify-content: center;
-}
+} */
 .projects-group {
   display: flex;
   justify-content: center;
@@ -192,3 +200,9 @@ footer .copyright {
   flex-direction: column;
   text-align: center;
 }
+
+.preview img {
+  border: 2px black solid;
+  margin-bottom: 1rem;
+}
+
